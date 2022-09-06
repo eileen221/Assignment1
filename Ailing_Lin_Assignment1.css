@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #6a91c2;
+}
+
+.container {
+  margin: 200px auto;
+  width: 500px;
+  height: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+table,
+th,
+td {
+  background-color: #fcfdfc;
+  border: 1px solid black;
+  text-align: center;
+  padding: 7px;
+}
+
+.search-field {
+  width: 30%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+ol,
+ul {
+  margin: 2rem;
+}
+
+select {
+  font-size: 1.5rem;
+}
